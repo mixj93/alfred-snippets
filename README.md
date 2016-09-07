@@ -16,7 +16,9 @@
 
 ### 方法二：`*.json` 集合 -> `*.alfredsnippets`
 
-把 `*.alfredsnippets` 的后缀名改为 `.zip`，解压缩文件，会看到每一条 snippet 为一个 .json 文件，还可能包含一个名为 `icon.png` 的大小为 80*80 的图标。
+把 `*.alfredsnippets` 的后缀名改为 `.zip`，解压缩文件，会看到每一条 snippet 为一个 `.json` 文件，还可能包含一个名为 `icon.png` 的大小为 80*80 的图标。
+
+*`.json` 中的 uid 字段可以由命令行工具 uuidgen 生成。*
 
 这里会探索自动化制作 Alfred Snippets 集合的方案。
 
