@@ -8,6 +8,7 @@
 
 * [emoji 的集合](http://joelcalifa.com/blog/alfred-emoji-snippet-pack )
 
+
 ## 如何制作 Alfred Snippets 集合
 
 ### 方法一：Alfred 应用内制作
@@ -58,3 +59,11 @@ someCollect
 ---
 
 Alfred 论坛上关于 `*.alfredsnippets` 制作的讨论：[How to compress folder of snippets](http://www.alfredforum.com/topic/9199-how-to-compress-folder-of-snippets/)
+
+
+## 开发计划
+
+1. 一个 collection 统一写在一个 `.json` 中方便编辑和管理。
+2. 通过 gulp 把 `.json` 文件转为 Alfred Snippets 集合文件夹的结构，加上相应的 uid。
+3. 使用 `makeCollection.sh` 脚本将 Alfred Snippets 集合文件夹生成 `*.alfredsnippets` 文件。
+
