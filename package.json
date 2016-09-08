@@ -1,0 +1,26 @@
+{
+  "name": "alfred-snippets",
+  "version": "1.0.0",
+  "description": "自制 Alfred Snippets 集合",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixj93/alfred-snippets.git"
+  },
+  "keywords": [
+    "alfred",
+    "snippets"
+  ],
+  "author": "Li Xueli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixj93/alfred-snippets/issues"
+  },
+  "homepage": "https://github.com/mixj93/alfred-snippets#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

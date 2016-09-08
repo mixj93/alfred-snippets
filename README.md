@@ -61,9 +61,29 @@ someCollect
 Alfred 论坛上关于 `*.alfredsnippets` 制作的讨论：[How to compress folder of snippets](http://www.alfredforum.com/topic/9199-how-to-compress-folder-of-snippets/)
 
 
+## 项目结构
+
+```
+alfred-snippets
+├── collection/   Alfred Snippets 集合文件夹
+├── data/         数据草稿
+├── node_modules/ npm 包
+├── snippets/     .alfredsnippets 文件
+├── src/          制作 Alfred Snippets 的源 json 文件
+├── tools/        一些小工具
+├── .gitignore
+├── gulpfile.js
+├── LICENSE
+├── package.json
+└── README.md
+```
+
+
 ## 开发计划
 
 1. 一个 collection 统一写在一个 `.json` 中方便编辑和管理。
 2. 通过 gulp 把 `.json` 文件转为 Alfred Snippets 集合文件夹的结构，加上相应的 uid。
 3. 使用 `makeCollection.sh` 脚本将 Alfred Snippets 集合文件夹生成 `*.alfredsnippets` 文件。
+4. 后期希望实现完全自动化。
+
 
