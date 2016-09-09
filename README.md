@@ -56,10 +56,6 @@ someCollect
 
 将打包为：`someCollect.alfredSnippets`，双击 `someCollect.alfredSnippets` 即可安装到 Alfred 中。
 
----
-
-Alfred 论坛上关于 `*.alfredsnippets` 制作的讨论：[How to compress folder of snippets](http://www.alfredforum.com/topic/9199-how-to-compress-folder-of-snippets/)
-
 
 ## 项目结构
 
@@ -87,3 +83,6 @@ alfred-snippets
 4. 后期希望实现完全自动化。
 
 
+---
+
+Alfred 论坛上关于 `*.alfredsnippets` 制作的讨论：[How to compress folder of snippets](http://www.alfredforum.com/topic/9199-how-to-compress-folder-of-snippets/)
