@@ -1,0 +1,32 @@
+[
+   {
+    "name": "Snippets Name 1",
+    "snippet" : "snippets content 1",
+    "dontautoexpand" : true,
+    "keyword" : "snpt1"
+  },
+  {
+    "name": "Snippets Name 2",
+    "snippet" : "snippets content 2",
+    "dontautoexpand" : true,
+    "keyword" : "snpt2"
+  },
+  {
+    "name": "Snippets Name 3",
+    "snippet" : "snippets content 3",
+    "dontautoexpand" : true,
+    "keyword" : "snpt3"
+  },
+  {
+    "name": "Snippets Name 4",
+    "snippet" : "snippets content 4",
+    "dontautoexpand" : true,
+    "keyword" : "snpt4"
+  },
+  {
+    "name": "Snippets Name 5",
+    "snippet" : "snippets content 5",
+    "dontautoexpand" : true,
+    "keyword" : "snpt5"
+  }
+]

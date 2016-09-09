@@ -7,6 +7,7 @@
 ## Alfred Snippets 集合推荐
 
 * [emoji 的集合](http://joelcalifa.com/blog/alfred-emoji-snippet-pack )
+* [官方的 snippet 示例](https://www.alfredapp.com/extras/snippets/)
 
 
 ## 如何制作 Alfred Snippets 集合
@@ -63,6 +64,7 @@ someCollect
 alfred-snippets
 ├── collection/   Alfred Snippets 集合文件夹
 ├── data/         数据草稿
+├── example/      示例
 ├── node_modules/ npm 包
 ├── snippets/     .alfredsnippets 文件
 ├── src/          制作 Alfred Snippets 的源 json 文件
@@ -80,7 +82,7 @@ alfred-snippets
 1. 一个 collection 统一写在一个 `.json` 中方便编辑和管理。
 2. 通过 gulp 把 `.json` 文件转为 Alfred Snippets 集合文件夹的结构，加上相应的 uid。
 3. 使用 `makeCollection.sh` 脚本将 Alfred Snippets 集合文件夹生成 `*.alfredsnippets` 文件。
-4. 后期希望实现完全自动化。
+4. 后期希望实现完全自动化。[流程图](https://drive.google.com/open?id=11bNxT_4xujL9kHgGKTNPewgV2X6OIsI2qzAskJsotvk)
 
 
 ---
