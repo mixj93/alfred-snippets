@@ -65,6 +65,7 @@ alfred-snippets
 ├── collection/   Alfred Snippets 集合文件夹
 ├── data/         数据草稿
 ├── example/      示例
+├── icon/         存放 Alfred Snippets 集合的图标
 ├── node_modules/ npm 包
 ├── snippets/     .alfredsnippets 文件
 ├── src/          制作 Alfred Snippets 的源 json 文件
