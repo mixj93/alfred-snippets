@@ -70,7 +70,7 @@ alfred-snippets
 ├── snippets/     .alfredsnippets 文件
 ├── src/          制作 Alfred Snippets 的源 json 文件
 ├── tools/        一些小工具
-├── .gitignore
+├── .gitignore    git 忽略的文件的配置
 ├── gulpfile.js
 ├── LICENSE
 ├── package.json
